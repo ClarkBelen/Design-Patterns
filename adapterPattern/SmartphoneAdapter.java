@@ -1,3 +1,5 @@
+package adapterPattern;
+
 public class SmartphoneAdapter implements PowerOutlet{
     public Smartphone smartphone;
 

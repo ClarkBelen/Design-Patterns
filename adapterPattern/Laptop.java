@@ -1,3 +1,5 @@
+package adapterPattern;
+
 public class Laptop {
     public void chargeLaptop(){
         System.out.println("Laptop is now charging!");

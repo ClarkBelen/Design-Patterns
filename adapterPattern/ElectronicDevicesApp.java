@@ -1,3 +1,5 @@
+package adapterPattern;
+
 import java.util.Scanner;
 
 public class ElectronicDevicesApp {

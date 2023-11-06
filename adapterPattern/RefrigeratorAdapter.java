@@ -1,3 +1,5 @@
+package adapterPattern;
+
 public class RefrigeratorAdapter implements PowerOutlet {
     public Refrigerator refrigerator;
 

@@ -1,3 +1,5 @@
+package adapterPattern;
+
 public class LaptopAdapter implements PowerOutlet{
     public Laptop laptop;
 

@@ -1,3 +1,5 @@
+package adapterPattern;
+
 public class Smartphone {
     public void chargePhone(){
         System.out.println("Smartphone is now charging!");
