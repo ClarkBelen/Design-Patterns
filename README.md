@@ -9,7 +9,7 @@
 3. [Decorator Pattern](https://github.com/ClarkBelen/decoratorPattern) - allows the behavior of an object to be extended dynamically, without the need to change its source code. 
 
 ## Behavioral Design Patterns
-1. [Command Pattern](https://github.com/ClarkBelen/commandPattern) - encapsulating all the data related to command in one object
+1. [Command Pattern](https://github.com/ClarkBelen/commandPattern) - encapsulating all the data related to command in one object.
 2. [Observer Pattern](https://github.com/ClarkBelen/observerPattern) - defines a one-to-many dependency between objects.
 
 
