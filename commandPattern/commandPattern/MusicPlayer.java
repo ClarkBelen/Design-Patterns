@@ -1,3 +1,5 @@
+package commandPattern;
+
 public class MusicPlayer implements Device {
 
     private Integer volume = 50; //Default value of volume

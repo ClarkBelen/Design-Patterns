@@ -1,31 +1,32 @@
+package commandPattern;
 
 public class SmartHomeAutomation {
     public static void main (String[] args){
 
         RemoteControl controller;
 
-        //Sending Commands on Thermostat Device
+        //Sending Commands on commandPattern.Thermostat commandPattern.Device
         Device thermostat = new Thermostat();
         Command turnOnThermostat = new TurnOnDevice(thermostat);
         Command increaseTemperature = new IncreaseAttribute(thermostat);
         Command decreaseTemperature = new DecreaseAttribute(thermostat);
         Command turnOffThermostat = new TurnOffDevice(thermostat);
 
-        //Sending Commands on Lights Device
+        //Sending Commands on commandPattern.Lights commandPattern.Device
         Device lights = new Lights();
         Command turnOnLights = new TurnOnDevice(lights);
         Command increaseBrightness = new IncreaseAttribute(lights);
         Command decreaseBrightness = new DecreaseAttribute(lights);
         Command turnOffLights = new TurnOffDevice(lights);
 
-        //Sending Commands on MusicPlayer Device
+        //Sending Commands on commandPattern.MusicPlayer commandPattern.Device
         Device musicPlayer = new MusicPlayer();
         Command turnOnMusicPlayer = new TurnOnDevice(musicPlayer);
         Command increaseVolume = new IncreaseAttribute(musicPlayer);
         Command decreaseVolume = new DecreaseAttribute(musicPlayer);
         Command turnOffMusicPlayer = new TurnOffDevice(musicPlayer);
 
-        //Controlling Thermostat with commands through remote control
+        //Controlling commandPattern.Thermostat with commands through remote control
         controller = new RemoteControl(turnOnThermostat);
         controller.clickButton();
         controller = new RemoteControl(increaseTemperature);
@@ -36,7 +37,7 @@ public class SmartHomeAutomation {
         controller.clickButton();
         System.out.println();
 
-        //Controlling Lights with commands through remote control
+        //Controlling commandPattern.Lights with commands through remote control
         controller = new RemoteControl(turnOnLights);
         controller.clickButton();
         controller = new RemoteControl(increaseBrightness);

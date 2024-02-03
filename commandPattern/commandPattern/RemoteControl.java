@@ -1,3 +1,5 @@
+package commandPattern;
+
 public class RemoteControl {
     private Command command;
 

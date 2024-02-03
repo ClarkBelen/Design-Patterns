@@ -1,3 +1,5 @@
+package commandPattern;
+
 public class IncreaseAttribute implements Command {
     private Device device;
 

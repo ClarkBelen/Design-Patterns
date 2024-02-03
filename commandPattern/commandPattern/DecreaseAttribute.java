@@ -1,3 +1,5 @@
+package commandPattern;
+
 public class DecreaseAttribute implements Command {
     private Device device;
 

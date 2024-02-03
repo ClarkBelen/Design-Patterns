@@ -14,8 +14,8 @@ public class ElectronicDevicesApp {
             System.out.print("Choose a device: ");
             Integer device = scanner.nextInt();
 
-            System.out.println("1. Plug a Device");
-            System.out.println("2. Unplug a Device");
+            System.out.println("1. Plug a commandPattern.Device");
+            System.out.println("2. Unplug a commandPattern.Device");
             System.out.print("Choose an action: ");
             Integer action = scanner.nextInt();
 
@@ -55,7 +55,7 @@ public class ElectronicDevicesApp {
                     }
                     break;
                 default:
-                    System.out.println("Device not located. Please try again!");
+                    System.out.println("commandPattern.Device not located. Please try again!");
             }
             System.out.println();
         }

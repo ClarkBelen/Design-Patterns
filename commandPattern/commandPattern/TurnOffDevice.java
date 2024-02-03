@@ -1,3 +1,5 @@
+package commandPattern;
+
 public class TurnOffDevice implements Command {
     private Device device;
 

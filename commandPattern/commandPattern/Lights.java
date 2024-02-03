@@ -1,15 +1,16 @@
+package commandPattern;
 
 public class Lights implements Device {
     private Integer brightness = 50;
 
     @Override
     public void switchOn() {
-        System.out.println("Lights ON");
+        System.out.println("commandPattern.Lights ON");
     }
 
     @Override
     public void switchOff() {
-        System.out.println("Lights OFF");
+        System.out.println("commandPattern.Lights OFF");
     }
 
     @Override
