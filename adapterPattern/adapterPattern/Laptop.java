@@ -1,6 +1,6 @@
 package adapterPattern;
 
-public class Laptop {//a
+public class Laptop {
     public void chargeLaptop(){
         System.out.println("Laptop is now charging!");
     }
